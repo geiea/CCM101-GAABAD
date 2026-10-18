@@ -1,0 +1,11 @@
+# Mission Reflection
+
+This laboratory helped me understand the importance of automation in cloud computing. Managing hundreds of servers manually can take a lot of time and may lead to mistakes. With automation, repetitive tasks such as backups can run according to a schedule without requiring someone to execute the commands every time. This makes server administration more efficient and consistent.
+
+However, automation also has risks. A small mistake in a script can cause serious problems, especially if the script runs on many servers. For example, a destructive command could accidentally delete important files across multiple systems. To prevent these problems, scripts should be reviewed and tested in a safe environment before being deployed. Administrators should also use proper permissions, monitoring, and backup procedures.
+
+Writing a Bash script was different from creating a Docker Compose YAML file in Laboratory 6. Bash uses commands and variables to perform tasks step by step, while Docker Compose YAML describes the services and configurations needed to run an application. Both are useful in cloud computing, but they solve different problems.
+
+Throughout Laboratories 1 to 9, my understanding of cloud computing developed from learning basic cloud concepts to working with infrastructure, applications, storage, monitoring, security, and automation. I learned that cloud computing involves more than simply using online services. It also requires managing resources, protecting data, and maintaining reliable systems.
+
+The role I enjoyed most was the Cloud Automation Engineer because it showed me how scripts can reduce repetitive work and prevent missed tasks. Creating the backup script and scheduling it with Cron helped me understand how simple tools can solve real operational problems. This activity also taught me to test commands carefully and document my work properly. Overall, the laboratory improved my confidence in using Linux commands and helped me appreciate the importance of automation in managing cloud environments.
