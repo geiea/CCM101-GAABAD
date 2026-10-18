@@ -1,0 +1,11 @@
+# Mission Reflection
+
+Completing Laboratory 08 helped me understand the importance of protecting a server from unauthorized access. I learned that a host-based firewall provides an additional layer of security even if the physical network perimeter is breached. It filters incoming and outgoing traffic based on configured rules, helping prevent unauthorized connections to the server.
+
+Managing open network ports is also important because every exposed port can become a possible entry point for attackers. By allowing only the services that are necessary, administrators can reduce the server's attack surface. In this activity, I allowed SSH for remote administration and TCP port 8080 for the web application while applying a Default Deny policy to incoming traffic.
+
+In a real enterprise environment, leaving a database port such as 3306 for MySQL open to the public internet is dangerous. Attackers could attempt to guess passwords, exploit database vulnerabilities, or gain unauthorized access to sensitive information. Database access should be restricted to trusted servers and authorized users. Strong authentication, regular updates, and proper network security rules are also necessary.
+
+This mission changed my perspective on how easily a server can become vulnerable when security settings are not configured properly. Even if an application works correctly, it may still be exposed to unnecessary risks. I also learned why SSH must be allowed before enabling UFW to avoid interrupting remote administration.
+
+Finally, having eight completed missions in my GitHub portfolio gives me a clearer record of the cloud computing skills I have developed. The activities helped me practice server deployment, monitoring, container management, and security configuration. I can use these experiences as a foundation for future IT projects. This laboratory taught me that cloud security requires continuous monitoring, careful configuration, and responsible management rather than a one-time setup.
